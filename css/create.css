@@ -1,0 +1,47 @@
+:root{
+    --green: #81c408 ;
+    --orange: #ffb524; 
+    --gray: #45595b; 
+    --dark: #0000008c;
+}
+*{
+    box-sizing: border-box;
+}
+.created{
+    /* background-color: #548e34; */
+    /* background:linear-gradient(to right,var(--green), var(--orange)); */
+
+    background: url(../img/log\ in.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding: 2%;
+    /* height: 100vh; */
+}
+.btna a{
+color: white;
+text-decoration: none;
+}
+body{
+font-family: 'Oswald', sans-serif;
+}
+.htxt{
+color: var(--green);
+}
+.finput:focus{
+box-shadow: none;
+border: 1px solid var(--dark) ;
+}
+.shap{
+    border: var(--gray) 4px double;
+    border-radius: 10px 400px 10px 400px ;
+    /* background:linear-gradient(to right,var(--orange),var(--green) ); */
+    background: linear-gradient(to right,#ffffff63,#81c40873 );
+
+    margin-bottom: 5px;
+}
+
+  
+  
+  
+  

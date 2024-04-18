@@ -1,0 +1,49 @@
+:root{
+  --green: #81c408 ;
+  --orange: #ffb524; 
+  --gray: #45595b; 
+  --dark: #0000008c;
+}
+*{
+  box-sizing: border-box;
+}
+
+.btna a{
+  color: white;
+  text-decoration: none;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+}
+.log{
+  background: url(../img/20.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.htxt{
+  color: var(--green);
+}
+.finput:focus{
+  box-shadow: none;
+  border: 1px solid var(--orange) ;
+}
+.rcard{
+  background: url(../img/20.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 60px 0px 0px 60px !important;
+}
+.sectwo{
+  background: url(../img/10.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.card{
+  border-radius: 60px 0px 0px 60px !important;
+}
+
+
+

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>insectors</title>
+    <!-- bootstap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- faveicon -->
+     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <!-- anamition -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+  <body>
+    <!-- start shap -->
+    <div class="link_shap container w-75 m-auto d-flex justify-content-around pt-2 fs-5 animate__animated animate__slideInLeft ">
+      <a href="https://www.google.com/maps" target="_blank">
+        <p>
+          <i class="fa-solid fa-location-dot sh"></i>
+          <span class="ms-2"> 123 street , MET</span>
+        </p>
+      </a>
+      <a href="mailto:insector@example.com" target="_blank">
+        <p>
+          <i class="fa-solid fa-envelope sh"></i>
+          <span class="ms-2"> insectors@gmail.com</span>
+        </p>
+      </a>
+      <div class="date_shap">
+        <i class="fa-solid fa-calendar-days sh"></i>
+        <span class="ms-2"></span>
+      </div>
+    </div>
+    <!-- end shap -->
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg m-auto sticky-top bg-white">
+      <div class="container-fluid backnav">
+        <a class="navbar-brand insectors fs-2 ms-1 p-1" href="#">
+          <i class="fa-solid fa-spider"></i> insectors</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bar"
+            ><i class="fa-solid fa-bars fs-1"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fs-5">
+            <li class="nav-item">
+              <a class="nav-link active home" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="magnifying me-3 hglas"></div>
+          <div class="hglas">
+           <i class="fa-solid fa-magnifying-glass fs-5 me-3 glass"></i>
+          </div>
+          <a href="area/login.html">
+          <div class="login">
+            <button class="btn btn-success rounded-pill fs-5">login</button>
+          </div>
+          </a> 
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start landing -->
+    <div class="landing py-5">
+      <div
+        class="container m-auto landing_container d-flex justify-content-center align-items-center py-5"
+      >
+        <div class="row ">
+          <div class="col-lg-6 col-md-8 text-center m-auto animate__animated animate__fadeInLeft">
+            <p class="planding fs-3">updated to 2024</p>
+            <h1 class="hlanding fs-1 mb-5">Lorem ipsum dolor sit amet.</h1>
+            <form action="" method="post" class="imgform m-auto ">
+              <input type="file" accept="image/*" name="img" />
+              <input type="submit" value="search..." name="search" />
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-8 m-auto mb-4 mt-4  animate__animated animate__fadeInRight">
+            <div
+              id="carouselId"
+              class="carousel slide position-relative"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner slideround" role="listbox">
+                <div class="carousel-item active rounded">
+                  <img
+                    src="img/wallpaperbetter.com_1920x1080 (1).jpg"
+                    class="img-fluid w-100 h-100 bg-secondary rounded"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item rounded">
+                  <img
+                    src="img/wallpaperbetter.com_1920x1080.jpg"
+                    class="img-fluid w-100 h-100 rounded"
+                    alt="Second slide"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon bg-black slideround"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon bg-black slideround"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- start feature -->
+    <div class="feature mt-5 mb-5">
+      <div class="container">
+        <div class="row m-auto">
+          <div class="col-md-6 col-lg-6 col-xl-3 mb-4 fcard">
+            <div class="card text-center bcard" >
+              <div class="card-body">
+                <h1 class="card-title bicon m-auto mb-3">
+                  <i class="fa-solid fa-circle-info text-white ficon"></i>
+                </h1>
+                <p class="card-text fs-4">free information</p>
+                <p class="text-black-50">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-3 mb-4 fcard">
+            <div class="card text-center bcard" >
+              <div class="card-body">
+                <h1 class="card-title bicon m-auto mb-3">
+                  <i class="fa-solid fa-shield text-white ficon"></i>
+                </h1>
+                <p class="card-text fs-4">security searcher</p>
+                <p class="text-black-50">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-3 mb-4 fcard">
+            <div class="card text-center bcard">
+              <div class="card-body">
+                <h1 class="card-title bicon m-auto mb-3">
+                  <i class="fa-solid fa-right-left text-white ficon"></i>
+                </h1>
+                <p class="card-text fs-4">30 Day Return</p>
+                <p class="text-black-50">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-3 col-lg-3 mb-4 fcard">
+            <div class="card text-center bcard" >
+              <div class="card-body">
+                <h1 class="card-title bicon m-auto mb-3">
+                  <i class="fa-solid fa-phone text-white ficon"></i>
+                </h1>
+                <p class="card-text fs-4">24/7 Support</p>
+                <p class="text-black-50">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end feature -->
+
+    <!-- start shoow -->
+    <div class="shoow  position-relative">
+      <div class="container">
+        <h4 class="text-center pshoow pt-5"><span class="shoowi">|</span> video view</h4>
+        <h1 class="text-center hshoow pt-2">Get Closer View <span class="shoowand">&</span> <br> Different Feeling</h1>
+        <div class="video position-absolute ">
+          <video src="video/تحويل اليرقه الي فراشه، سبحان الله😍.mp4" controls poster="img/1.jpg"></video>
+        </div>
+      </div>
+    </div>
+    <!-- end shoow -->
+
+    <!-- start team -->
+    <div class="team pt-5 container">
+      <p class="fs-3 teamline text-black-50 pt-5">TEAM</p>
+      <h1>Check our Team</h1>
+      <div class="container cteam pt-5 d-flex   justify-content-between ">
+        <div class="row mb-5 m-auto text-center">
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="card" >
+              <img class="card-img-top position-relative" src="img/wallpaperflare.com_wallpaper.jpg" alt="Card image cap">
+              <div class="iconcard position-absolute animate__animated animate__fadeIn">
+               <a href="#"><i class="fab fa-facebook-f ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-instagram ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-twitter ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in ticon fs-5"></i></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">D/mohamed Abd-Elfatah</h5>
+                <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="card" >
+              <img class="card-img-top position-relative" src="img/wallpaperflare.com_wallpaper.jpg" alt="Card image cap">
+              <div class="iconcard position-absolute animate__animated animate__fadeIn">
+               <a href="#"><i class="fab fa-facebook-f ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-instagram ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-twitter ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in ticon fs-5"></i></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Wagdy Ashraf</h5>
+                <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="card" >
+              <img class="card-img-top position-relative" src="img/wallpaperflare.com_wallpaper.jpg" alt="Card image cap">
+              <div class="iconcard position-absolute animate__animated animate__fadeIn">
+               <a href="#"><i class="fab fa-facebook-f ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-instagram ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-twitter ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in ticon fs-5"></i></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mostafa Adel</h5>
+                <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="card" >
+              <img class="card-img-top position-relative" src="img/wallpaperflare.com_wallpaper.jpg" alt="Card image cap">
+              <div class="iconcard position-absolute animate__animated animate__fadeIn">
+               <a href="#"><i class="fab fa-facebook-f ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-instagram ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-twitter ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in ticon fs-5"></i></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Yassen Mohamed</h5>
+                <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="card" >
+              <img class="card-img-top position-relative" src="img/wallpaperflare.com_wallpaper.jpg" alt="Card image cap">
+              <div class="iconcard position-absolute animate__animated animate__fadeIn">
+               <a href="#"><i class="fab fa-facebook-f ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-instagram ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-twitter ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in ticon fs-5"></i></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hanaa Ibrahim</h5>
+                <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="card" >
+              <img class="card-img-top position-relative" src="img/wallpaperflare.com_wallpaper.jpg" alt="Card image cap">
+              <div class="iconcard position-absolute animate__animated animate__fadeIn">
+               <a href="#"><i class="fab fa-facebook-f ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-instagram ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-twitter ticon fs-5"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in ticon fs-5"></i></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Shereen Mohamed</h5>
+                <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+     
+
+        </div>
+      </div>
+    </div>
+    <!-- end team -->
+
+    <!-- Start Fact  -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="bg-light p-5 rounded">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="counter bg-white rounded p-5 fact">
+                <i class="fa-solid fa-users ficon"></i>
+                <h3>satisfied customers</h3>
+                <h1 class="text-black-50">1963</h1>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="counter bg-white rounded p-5 fact">
+                <i class="fa-solid fa-users ficon"></i>
+                <h3> quality &nbsp;of  service</h3>
+                <h1 class="text-black-50">99%</h1>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="counter bg-white rounded p-5 fact">
+                <i class="fa-solid fa-users ficon"></i>
+                <h3>quality certificates</h3>
+                <h1 class="text-black-50">33</h1>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="counter bg-white rounded p-5 fact">
+                <i class="fa-solid fa-users ficon "></i>
+                <h3>Available searcher</h3>
+                <h1 class="text-black-50">789</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Fact -->
+
+    <!--start location  -->
+    <div class="location pt-5">
+      <div class="container">
+        <h3 class="text-black-50 teamline">CONTACT</h3>
+        <h1 class="pt-3">CONTACT US</h1>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d577395.6785654417!2d31.563276083127544!3d31.1638574340085!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1706128416007!5m2!1sen!2seg" width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="row pt-5">
+          <div class="col-4">
+            <div class="contactinfo ">
+              <h3><i class="fa-solid fa-location-dot ilcation me-2"></i> Location:</h3>
+              <p class="text-black-50 ps-4" >123 street , MET</p>
+            </div>
+            <div class="contactinfo py-4">
+              <h3><i class="fa-solid fa-envelope ilcation me-2"></i> Email:</h3>
+              <p class="text-black-50 ps-4" >insectors@email.com</p>
+            </div>
+            <div class="contactinfo">
+              <h3><i class="fa-solid fa-mobile ilcation me-2"></i> Phone:</h3>
+              <p class="text-black-50 ps-4" >01027835807</p>
+            </div>
+          </div>
+          <div class="col-8">
+            <form action="" method="post">
+              <div class="row ">
+                <div class="col-6">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="row py-4">
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                 <textarea class="form-control" placeholder="Message"></textarea>
+                 <input type="submit" value=" Send Message" class="m-auto mt-3 form-control w-25 lsub">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end location  -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+      <div class="container py-5">
+          <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+              <div class="row g-4">
+                  <div class="col-lg-3">
+                      
+                          <h1 class="txth mb-0 "><i class="fa-solid fa-spider"></i> insectors</h1>
+                          <p class="txtp mb-0">Lorem ipsum.</p>
+                    
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="position-relative mx-auto">
+                          <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email">
+                          <button type="submit" class="btn btn-success border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white footerbtn" style="top: 0; right: 0;">Subscribe Now</button>
+                      </div>
+                  </div>
+                  <div class="col-lg-3">
+                      <div class="d-flex justify-content-end pt-3">
+                          <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle footericon footicon " href=""><i class="fab fa-twitter"></i></a>
+                          <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle footericon footicon" href=""><i class="fab fa-facebook-f"></i></a>
+                          <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle footericon footicon" href=""><i class="fab fa-youtube"></i></a>
+                          <a class="btn btn-outline-secondary btn-md-square rounded-circle footericon footicon" href=""><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row g-5">
+              <div class="col-lg-3 col-md-6">
+                  <div class="footer-item">
+                      <h3 class="text-light mb-3 ">Why People Like us!</h3>
+                      <p class="mb-4">typesetting, remaining essentially unchanged. It was 
+                          popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                      <a href="" class="btn py-2 px-4 rounded-pill footbtn btn-warning ">Read More</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="d-flex flex-column text-start footer-item">
+                      <h4 class="text-light mb-3">  Shop Info</h4>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> About Us</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Contact Us</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Privacy Policy</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Terms & Condition</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Return Policy</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> FAQs & Help</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="d-flex flex-column text-start footer-item">
+                      <h4 class="text-light mb-3">Account</h4>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> My Account</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Account details</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Account </a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Account</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> Account</a>
+                      <a class="btn-link" href=""><span class="footergt">&gt;</span> International Account</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="footer-item">
+                      <h4 class="text-light mb-3">Contact</h4>
+                      <p>Address: 123 , MET</p>
+                      <p>Email: insectors@gmail.com</p>
+                      <p>Phone: 01027835807</p>
+                      <p> Lorem, ipsum dolor.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>insectors</a>, All right reserved.</span>
+                  </div>
+                  <div class="col-md-6 my-auto text-center text-md-end text-white">
+                      
+                      Designed By <a class="border-bottom" href="https://htmlcodex.com">wagdy ashraf</a>
+                  </div>
+              </div>
+          </div>
+    </div>
+    <!-- Copyright End -->
+
+    
+
+    <!-- ******************************************************** -->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- bootstap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>

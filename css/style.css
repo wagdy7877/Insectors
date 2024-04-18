@@ -1,0 +1,326 @@
+:root{
+  --green: #81c408 ;
+  --orange: #ffb524; 
+  --gray: #45595b; 
+  --dark: #0000008c;
+}
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+/* //////////////////////////////////// */
+/* global color */
+.navbar ul a  ,.magnifying,.glass{
+  color:var(--dark)  ;
+}
+.txth,.active ,.copyright a ,.hshoow,.navbar ul a:hover,.home,.insectors,.fact h3,.shoowi,.footergt,.ticon{
+  color: var(--green) !important;
+}
+.pshoow,
+.txtp,.link_shap :hover ,.link_shap .sh,.insectors:hover,.footicon,.planding,
+.fact > svg:nth-child(1) > path:nth-child(1) ,.copyright a:hover,.shoowand,
+.g-4 > div:nth-child(2) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1),
+.g-4 > div:nth-child(3) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1),
+.g-4 > div:nth-child(4) > div:nth-child(1) > svg:nth-child(1){
+  color: var(--orange) !important;
+}
+
+.footicon:hover,.footbtn:hover , .link_shap,.link_shap a,.footer a:hover,.navbar .navbar-toggler,.iconcard :hover{
+  color: white !important;
+}
+
+/* global background-color */
+.link_shap,.navbar button,.magnifying,input[type=submit]:hover,.footerbtn{
+  background-color: var(--green) !important;
+}
+input[type=submit],input[type=file]::file-selector-button:hover,.bicon,.footericon:hover,.footbtn:hover,.ticon:hover{
+  background: var(--orange)!important;
+}
+.footer , .copyright,.ticon{
+  background-color: var(--gray) !important;
+}
+/* ///////////////////////////////////// */
+
+/* start shap */
+.link_shap a{
+  text-decoration: none;
+}
+.link_shap{
+  border-radius: 230px 100px;
+}
+/* end shap */
+
+/* start nav  */
+.insectors{
+  font-weight: 900;
+}
+.navbar{
+  border-bottom: 1px solid var(--green);
+}
+.backnav{
+  width: 95%;
+}
+.navbar button{
+  padding: 6px 40px;
+  margin-right: 10%;
+}
+.magnifying{
+  width: 4px;
+  height: 40px;
+}
+.navbar .navbar-toggler {
+  border-color:var(--green);
+  font-size: 25px;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  box-shadow: 5px 10px var(--orange);
+  border: 2px solid var(--orange);
+}
+/* end nav */
+
+/* start landing */
+.landing{
+  /* background-image: linear-gradient( rgba(255, 255, 255, 0.64), rgb(201, 235, 201)),url(../img/wallpaperbetter.com_1920x1080\ \(1\).jpg); */
+  background-image: linear-gradient( rgba(255, 255, 255, 0.36), rgb(55, 105, 55)),url(../img/wallpaperbetter.com_1920x1080\ \(1\).jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 80vh; 
+  font-weight: 900;
+  margin-bottom: 18vh;
+}
+.imgform{
+  border: 1px solid var(--orange);
+  border-radius: 35px 10px 35px 10px;
+  width:fit-content;
+  white-space: nowrap;
+}
+input[type=file]::file-selector-button,input[type=submit] {
+  border: none;
+  border-radius: 35px 10px 35px 10px;
+  background: var(--green);
+  padding: 12px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+.slideround{
+  border-radius: 30px;
+}
+/* end landing */
+
+/* start feature */
+.feature {
+  display: none; 
+}
+.bcard{
+  background-color: #f4f6f8 ;
+  border-radius: 15px;
+  height: 35vh;
+  border: none;
+}
+.bicon{
+  width: fit-content;
+  border-radius: 50%;
+}
+.ficon{
+font-size: 4rem;
+padding: 15px;
+}
+.fcard{
+  transition: transform 1s;
+}
+.fcard:hover{
+ transform: scale(1.1);
+}
+/* end feature */
+
+/* start fact */
+.fact{
+  height: 100%;
+}
+/* end fact */
+
+/* start footer */
+.footer a ,.copyright a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, .5);
+}
+.footericon{
+  border: 1px solid var(--orange);
+  width: 14%;
+}
+.footbtn{
+  border: 1px solid var(--orange);
+  color: var(--green) !important;
+  background: transparent !important;;
+}
+/* end footer */
+
+/* start shoow */
+.shoow{
+  background-image: linear-gradient( rgba(72, 72, 72, 0.64), rgb(95, 105, 95)), url(../img/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+  margin-bottom: 30vh;
+  margin-top: 15vh;
+}
+.video{
+  right: 19%;
+  left: 19%;
+  bottom: -40%;
+}
+.video video{
+  width: 100%;
+  border-radius: 30px ;
+}
+/* end shoow */
+
+/* start team */
+.teamline::after{
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 7px 10px;
+}
+.iconcard{
+  top: 50%;
+  left: 21%;
+  display: flex;
+  gap: 20px;
+}
+.ticon{
+  padding: 10px;
+  border-radius: 25%;
+  width: 1.3rem;
+}
+.ticon{
+  transition: transform 1.3s;
+}
+.ticon:hover{
+ transform:rotate(360deg);
+}
+.iconcard {
+  display: none;
+}
+.card:hover .iconcard {
+  display: flex;
+}
+/* end team */
+
+/* start location */
+.ilcation{
+background-color: var(--orange);
+padding: 10px;
+border-radius: 25%;
+color: white;
+}
+.contactinfo h3{
+  display: flex;
+  align-items: center;
+}
+.location form input:focus,.location form textarea:focus{
+ border: 1px solid var(--orange);
+ box-shadow: none;
+}
+.location form textarea{
+  height: 20vh;
+}
+/* end location */
+
+
+/* start responsive */
+@media screen and (max-width:991px){
+  .link_shap,.hglas{
+    display: none !important;
+ }
+ .landing{
+  height: 100vh;
+ }
+ .video{
+  right: 10%;
+  left: 10%;
+  top: 35%;
+}
+.iconcard{
+  top: 25%;
+  left: 10%;
+}
+.ticon{
+  width: 0.8rem;
+  padding: 6px;
+}
+.lsub{
+  width: 50% !important;
+}
+}
+@media screen and (max-width:576px){
+  .iconcard{
+    top: 50%;
+    left: 15%;
+  }
+  .ticon{
+    width: 2.2rem;
+    padding: 12px;
+  }
+
+}
+@media screen and (min-width:350px)and (max-width:450px){
+  .iconcard{
+    top: 35%;
+    left: 13%;
+  }
+  .ticon{
+    width: 1.2rem;
+    padding: 10px;
+  }
+
+}
+@media screen and (max-width:350px){
+  .iconcard{
+    top: 30%;
+    left: 10%;
+  }
+  .ticon{
+    width: 1rem;
+    padding: 7px;
+  }
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .video{
+    right: 19%;
+    left: 19%;
+    bottom: -30%;
+  }
+  .iconcard{
+    top: 45%;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .iconcard{
+    top: 37%;
+    left: 13%;
+  }
+  .ticon{
+    width: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
